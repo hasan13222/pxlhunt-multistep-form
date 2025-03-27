@@ -12,7 +12,7 @@ export type TFormData = {
   accountSetup?: TAccountSetup;
 }
 
-export default function page() {
+export default function Page() {
   const [formData, setFormData] = useState<TFormData>({});
   const [step, setStep] = useState(1);
   return (
